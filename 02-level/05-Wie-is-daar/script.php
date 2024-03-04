@@ -1,7 +1,6 @@
 <?php
 echo "Hoi Gebruiker!" . PHP_EOL;
-echo "Hoi Computer!" . PHP_EOL;
 
-$antwoord = "Hoi Computer";
+$antwoord = readline();
 
 echo "De gebruiker zegt:$antwoord";
