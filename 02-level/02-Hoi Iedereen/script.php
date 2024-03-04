@@ -1,4 +1,10 @@
 <?php
-echo "Hello World";
+$Tekst ="Dit is Tekst" .PHP_EOL;
 
+echo $Tekst;
+echo $Tekst;
+echo $Tekst;
+echo $Tekst;
+echo $Tekst;
+echo $Tekst;
 ?>
