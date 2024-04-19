@@ -6,18 +6,79 @@
     <link rel="stylesheet" type="text/css" href="index.css"> 
     <title>Texel</title>
     <style>
+        footer {
+            background-color: #222222;
+            color: #ffa500;
+            text-align: center;
+            padding: 20px;
+            bottom: 0;
+            width: 100%;
+        }
+        p{
+            font-style: italic;
+        }
+        a{
+            color: #ffa500;
+        }  
+    .foto-container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .foto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     img{
-        height: 400px;
-        width: 500px;
+        max-height: 200px;
+        max-width: 200px;
+    }
+    img[src="Bungalo1.png"] {
+        max-height: 300px;
+        max-width: 300px;
     }
     h1{
         font-size: 25px;
     }
+    hr{
+        margin: 0;
+    }
+    h2{
+        font-size: 15px;
+    }
+    body{
+        background-color:rgb(248, 255, 239)
+    }
     </style>
 </head>
 <body>
-    <img src="Bungalo1.png">
-    <img src="bungalo2.png">
+    <div class="foto-container">
+        <img src="Bungalo1.png">
+        <div class="foto">
+            <img src="bungalo2.png">
+            <img src="bungalo3.png">
+        </div>
+        <div class="foto">
+            <img src="bungalo4.png">
+            <img src="bungalo5.png">
+        </div>
+    </div>
     <h1>Bungaloo Namasé</h1>
+    <hr width="50%" size="2">
+    <h1>Beschrijving</h1>
+    <h2>Vakantiehuis op Texel</h2>
+        <p>Op een rustig park midden in de “Gouden Driehoek” staat de bungalow Namasté
+         in een grote tuin met veel privacy.<br>De “Gouden Driehoek” is het mooiste stukje van Texel:<br> 
+         vlakbij het strand en Ecomare, aan de rand van het bos, een paar kilometer onder de Koog<br>
+         en op fietsafstand van Den Burg en de boot.<br>
+         Je kunt het vakantiehuis huren via: https://www.totexel.nl/bungalow/californieweg-40-de-koog</p>
+         <hr width="50%" size="2">
+         <footer>
+            <p>E-Mail:<a href="mailto:optraken8.gmail.com" target="_blank">optraken8.gmail.com</a></p>
+            <p>Bel ons: <a href="tel:+123456789" target="_blank">06 29944812</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/optraken8/" target="_blank">Optraken8</a></p>
+            <p>Facebook: <a href="">Optraken8</a></p>
+        </footer>
 </body>
 </html>
